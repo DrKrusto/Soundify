@@ -14,7 +14,7 @@ void main() async {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  static const String serverUrl = 'http://192.168.1.29';
+  static const String serverUrl = 'http://';
   static const String title = 'Soundify';
   static int pagingSize = 2;
   static User user = User.empty();
